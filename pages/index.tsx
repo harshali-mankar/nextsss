@@ -9,8 +9,8 @@ const Home: React.FC = () => {
   return (
     <Layout>
       <NextSeo
-        title="NextSSS"
-        description="Next.js Static Site Starter"
+        title="Home Page Title"
+        description="Home page description here"
         openGraph={{
           type: 'website',
         }}

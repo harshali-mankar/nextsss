@@ -14,6 +14,10 @@ const Header: React.FC = () => {
               label: 'About',
               href: '/about/',
             },
+            {
+              label: 'test',
+              href: '/test/',
+            },
           ].map(({ href, label }, i) => {
             return (
               <li key={i}>
